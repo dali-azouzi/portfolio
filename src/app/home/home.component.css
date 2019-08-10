@@ -1,0 +1,114 @@
+
+.custom-container{
+    max-width: 83rem;
+}
+.landing-svg{
+    width: 111%;
+}
+@media (min-width: 768px)
+{
+    .margin-top{
+        margin-top: 10rem;
+    }
+}
+.svg-layer{
+    position: absolute;
+    top: -8rem;
+  -webkit-transform: translatey(0px);
+          transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
+}
+.padding-left{
+    padding-left: 7rem;
+}
+.font-secondary{
+    font-size: 1.4em;
+}
+.nunito{
+    font-family: nunito;
+}
+.left-shape{
+    position: absolute;
+    width: 46%;
+    /* margin-top: -9rem; */
+}
+@media (max-width : 500px){
+    .left-shape{
+        position: absolute;
+        width: 126%;
+        left: -16rem;
+        transform: rotate(45deg);
+    }
+}
+.img-container{
+    border-radius: 4rem;
+    width: 6rem;
+    height: 6rem;
+    background: #4acdfa4a;
+}
+.icons{
+    position: relative;
+    top: 50;
+    top: 25%;
+    left: 25%;
+}
+.text-orange{
+    color: #ff876f;
+}
+.text-violet{
+    color: #673ab7;
+}
+.marginbottom{
+    margin-bottom: 7rem;
+}
+.card-gardient{
+    background: linear-gradient(#00000005, whitesmoke);
+}
+@-webkit-keyframes float {
+    0% {
+      
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  .slowerr{
+    animation-duration: 1s;
+  }
+  .card:hover{
+    transform: translate(0px, -5px);
+  }
+  .desk-animation{
+    background: url('https://i.pinimg.com/originals/a5/35/60/a53560c8088900e266880f779dacced7.gif');
+    height: -webkit-fill-available;
+}
+.fadeout{
+    background: #d4d9f7;
+    animation-delay: 4s;
+}
